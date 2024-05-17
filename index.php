@@ -12,7 +12,6 @@
 
     <header>
         <div class="logo">ABOUT ME</div>
-
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
