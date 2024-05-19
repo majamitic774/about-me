@@ -9,14 +9,20 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 10px 20px;
+    padding: 20px 40px;
+    height: 100px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 36px;
     font-family: 'Courier New', Courier, monospace;
-    /* Izmenite ovo u interesantan font */
     color: #fff;
+    align-self: flex-start;
+    margin-top: 27px;
+}
+
+nav.nav-list {
+    align-self: flex-end;
 }
 
 nav ul {
@@ -24,10 +30,13 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row;
+    /* Promenjeno u row */
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 10px;
+    /* Promenjeno u left */
 }
 
 nav ul li a {
@@ -41,6 +50,37 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: calc(100% - 14cm);
+    /* Dodato 7cm sa obe strane */
+    max-width: 800px;
+}
+
+.about-me-text,
+.about-me-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-me-text {
+    border-right: 1px solid #ccc;
+}
+
+.about-me-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -51,6 +91,7 @@ h1 {
 .card {
     width: 300px;
     margin: 20px auto;
+    margin-top: 50px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -124,32 +165,4 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #222;
-}
-
-.about-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.about-me-text,
-.about-me-image {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.about-me-text {
-    border-right: 2px solid #ccc;
-}
-
-.about-me-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
 }
