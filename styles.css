@@ -125,3 +125,31 @@ footer {
     padding: 10px;
     background-color: #222;
 }
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.about-me-text,
+.about-me-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-me-text {
+    border-right: 2px solid #ccc;
+}
+
+.about-me-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
