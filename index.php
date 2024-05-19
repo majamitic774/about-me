@@ -40,15 +40,34 @@
     </div>
 
 
-
-    <div class="card">
-        <a href="mysites.php">
-            <img src="open.jpg" alt="My Sites">
-            <div class="container">
-                <h4><b>News</b></h4>
-                <p>Click here to visit my site</p>
-            </div>
-        </a>
+    <div class="card-container">
+        <div class="card">
+            <a href="mysites.php">
+                <img src="open1.jpg" alt="My Sites">
+                <div class="container">
+                    <h4><b>News</b></h4>
+                    <p>Click here to visit my site</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="mysites.php">
+                <img src="open.jpg" alt="My Sites">
+                <div class="container">
+                    <h4><b>News</b></h4>
+                    <p>Click here to visit my site</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="mysites.php">
+                <img src="open2.jpg" alt="My Sites">
+                <div class="container">
+                    <h4><b>News</b></h4>
+                    <p>Click here to visit my site</p>
+                </div>
+            </a>
+        </div>
     </div>
 
     <footer>
