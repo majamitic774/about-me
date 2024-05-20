@@ -11,13 +11,13 @@
 <body>
 
     <header>
-        <div class="logo">ABOUT ME</div>
+        <div class="logo">MAJA MITIC</div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,8 +39,8 @@
         </div>
     </div>
 
-
-    <div class="card-container">
+    <h1>MY SITES:</h1>
+    <div id="projects" class="card-container">
         <div class="card">
             <a href="mysites.php">
                 <img src="open1.jpg" alt="My Sites">
@@ -71,25 +71,25 @@
     </div>
 
     <footer>
-        <div class="footer-container">
+        <div class="footer-container" id="contact">
+            <div class="footer-section" id="services">
+                <h4>Services</h4>
+                <p>Details about the services offered.</p>
+            </div>
             <div class="footer-section">
-                <h4>Contact Us</h4>
-                <p>Email: info@mywebsite.com</p>
-                <p>Phone: +123 456 7890</p>
+                <h4>Contact</h4>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123456789</p>
             </div>
             <div class="footer-section">
                 <h4>Follow Us</h4>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-            </div>
-            <div class="footer-section">
-                <h4>About</h4>
-                <p>About the company and mission statement.</p>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 My Website. All rights reserved.</p>
+            &copy; 2024 My Website. All rights reserved.
         </div>
     </footer>
 
