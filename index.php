@@ -43,16 +43,16 @@
     <div id="projects" class="card-container">
         <div class="card">
             <a href="mysites.php">
-                <img src="open1.jpg" alt="My Sites">
+                <img src="open.jpg" alt="My Sites">
                 <div class="container">
-                    <h4><b>News</b></h4>
+                    <h4><b>some site</b></h4>
                     <p>Click here to visit my site</p>
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="mysites.php">
-                <img src="open.jpg" alt="My Sites">
+            <a href="http://143.42.205.165:8005/" target="_blank">
+                <img src="open1.jpg" alt="My Sites">
                 <div class="container">
                     <h4><b>News</b></h4>
                     <p>Click here to visit my site</p>
@@ -63,7 +63,7 @@
             <a href="mysites.php">
                 <img src="open2.jpg" alt="My Sites">
                 <div class="container">
-                    <h4><b>News</b></h4>
+                    <h4><b>some site</b></h4>
                     <p>Click here to visit my site</p>
                 </div>
             </a>
