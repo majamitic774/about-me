@@ -51,7 +51,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="http://143.42.205.165:8005/" target="_blank">
+            <a href="/my sites/news.php" target="_blank">
                 <img src="open1.jpg" alt="My Sites">
                 <div class="container">
                     <h4><b>News</b></h4>
